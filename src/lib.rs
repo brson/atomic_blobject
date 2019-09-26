@@ -160,7 +160,7 @@ impl<'a, T: 'a> Drop for BlobMutRef<'a, T>
 impl<'a, T: 'a> BlobMutRef<'a, T>
     where T: Serialize
 {
-    fn commit(&mut self) -> Result<()> {
+    pub fn commit(&mut self) -> Result<()> {
         ser_store(&self.path, &*self.v)?;
         self.committed = true;
 
