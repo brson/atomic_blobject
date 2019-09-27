@@ -3,6 +3,8 @@ name = "atomic_blobject"
 version = "0.1.0"
 authors = ["Brian Anderson <andersrb@gmail.com>"]
 edition = "2018"
+description = "Simple cross-process reader-writer-locked datastore"
+license = "MIT/Apache-2.0/BSL-1.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
