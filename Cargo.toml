@@ -10,7 +10,7 @@ license = "MIT/Apache-2.0/BSL-1.0"
 
 [dependencies]
 error-chain = "0.10.0"
-fancy_flocks = { path = "../fancy_flocks" }
+fancy_flocks = "0.1.0"
 log = "0.3.8"
 rand = "0.3.15"
 serde = "1.0.101"
